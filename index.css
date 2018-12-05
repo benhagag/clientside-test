@@ -1,0 +1,59 @@
+.navbar-default{
+    background: linear-gradient(rgba(0,229,145,1), rgba(47,239,188,1));
+}
+
+.navbar-default .navbar-brand {
+    padding: 15px;
+    color: #ffffff;
+}
+
+.container {
+    width: 800px;
+}
+
+.shoppingList {
+    width: 300px;
+    height: 350px;
+}
+
+.panel-primary>.panel-heading {
+    background: linear-gradient(rgba(0,229,145,1), rgba(47,239,188,1));
+    border-color: #d3d3d3 ;
+}
+
+.panel-primary {
+    border-color: #d3d3d3;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: #d3d3d3;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: #999999;
+}
+
+input:focus {
+    color: #000000;
+    border-color: #d3d3d3;
+}
+
+.glyphicon{
+    color: red;
+    /* margin-top: 5px; */
+    position: relative;
+    top: 5px;
+    left: 10px;
+    cursor: pointer;
+}
+
+.add-item{
+    margin-top: 25px;
+}
+
+#plus-item{
+    color: green;
+    margin-left: 18px;
+}
+
