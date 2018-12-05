@@ -57,8 +57,7 @@ $(document).ready(function () {
 // add item function
 function addItem (value){
     itemObj['name'] = value;
-    
-    var allItems = items.push(itemObj);
+    items.push(itemObj);
     console.log(items);
     // check = items[items.length-1]['name'] = value;
     // console.log(check);
@@ -72,7 +71,7 @@ function addItem (value){
 
     $(".inputs-area").append(input);
 
-    localStorage.setItem("allItems", allItems);
+    localStorage.setItem("items", items);
 
      itemObj = {'name': '', 'quantity': 0, 'price': '$', 'description': ''};
 
